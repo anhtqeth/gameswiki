@@ -10,5 +10,5 @@ import ethu.guide.pojo.Loot;
  */
 public class Armor extends Loot {
 	private int defense;
-
+	
 }
