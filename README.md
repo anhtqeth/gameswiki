@@ -6,7 +6,7 @@ I hosted a website named ethugamer.com in which I shared my guides on my PS4 gam
  Monster Hunter World (MHW) or Nioh is two main feature games right now. 
 In the long run, I want to create another site linked to the main site that supplement the information with details on items and some fancy build guidance. Things are uncertain yet.
 
-##README Version
+## README Version
 26 - Oct - 18 ---------------- 0.1
 
 ### Prerequisites
