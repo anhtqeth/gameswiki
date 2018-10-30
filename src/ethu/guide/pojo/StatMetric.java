@@ -8,5 +8,4 @@ package ethu.guide.pojo;
  *         moment. Let's start with some elemental attacks 26 Oct. 2018
  */
 public class StatMetric {
-
 }

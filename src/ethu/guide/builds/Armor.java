@@ -11,7 +11,7 @@ import ethu.guide.pojo.Loot;
 public class Armor extends Loot implements LootStatCalculation {
 	private int defense;
 	Characters player = new Characters();
-
+	
 	@Override
 	public void calcAtk() {
 		
