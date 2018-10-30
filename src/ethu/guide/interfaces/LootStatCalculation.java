@@ -11,7 +11,7 @@ package ethu.guide.interfaces;
  */
 public interface LootStatCalculation {
 
-//	TODO: What is the logic here?
+//	TODO: Check on the algothrim that used to 
 	public void calcAtk();
 
 	public void calcDef();

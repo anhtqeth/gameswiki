@@ -3,8 +3,8 @@ package ethu.guide.pojo;
 /**
  * @author truonga
  * 
- *         A basic pojo for a character that often found in RPG games 24 Oct.
- *         2018
+ *         A basic pojo for a character that often found in RPG games .
+ *         24 Oct 2018
  */
 public class Characters {
 	private String gender;
