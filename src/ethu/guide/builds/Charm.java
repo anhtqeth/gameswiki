@@ -4,7 +4,7 @@ import ethu.guide.interfaces.LootStatCalculation;
 import ethu.guide.pojo.Loot;
 
 public class Charm extends Loot implements LootStatCalculation{
-
+	
 	@Override
 	public void calcAtk() {
 		// TODO Auto-generated method stub
