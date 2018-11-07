@@ -25,4 +25,14 @@ public class MainController {
 	public String index() {
 		return "Welcome to EthuGuides - Here you can find the most useful builds for your need!";
 	}
+
+	@RequestMapping("/games")
+	public String findGames() {
+		return "This is the list of games currently covered on this site.";
+	}
+
+	@RequestMapping("/ranting")
+	public String blog() {
+		return "Here is my huble blog started in 2017";
+	}
 }
