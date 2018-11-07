@@ -15,7 +15,7 @@
 		<version>2.0.5.RELEASE</version>
 	</parent>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<!-- <sourceDirectory>src</sourceDirectory> -->
 		<plugins>
 		<!-- 	<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
