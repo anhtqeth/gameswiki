@@ -1,6 +1,7 @@
 package com.ethu.guide.controller;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,8 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 
  *         30 Oct. 2018
  */
-@EnableAutoConfiguration
-@RestController
+
 public class MainController {
 	/*
 	 * TODO: Will need to have a logic inside this controller TODO: What will be
@@ -23,7 +23,7 @@ public class MainController {
 	 */
 	@RequestMapping("/")
 	public String index() {
-		return "Welcome to EthuGuides - Here you can find the most useful builds for your need!";
+		return "index";
 	}
 
 	@RequestMapping("/games")
@@ -34,5 +34,10 @@ public class MainController {
 	@RequestMapping("/ranting")
 	public String blog() {
 		return "Here is my huble blog started in 2017";
+	}
+	
+	@RequestMapping("/error")
+	public String errorPage() {
+		return "Oops! You are not suppose to be here...";
 	}
 }
