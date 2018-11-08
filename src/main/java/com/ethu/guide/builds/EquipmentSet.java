@@ -1,7 +1,5 @@
 package com.ethu.guide.builds;
 
-import com.ethu.guide.pojo.Characters;
-
 /**
  * @author truonga
  * 

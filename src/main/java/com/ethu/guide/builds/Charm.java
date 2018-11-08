@@ -1,7 +1,6 @@
 package com.ethu.guide.builds;
 
 import com.ethu.guide.interfaces.Loot;
-import com.ethu.guide.interfaces.LootStatCalculation;
 
 public class Charm implements Loot {
 
