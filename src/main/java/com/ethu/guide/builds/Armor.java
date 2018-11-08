@@ -1,8 +1,6 @@
 package com.ethu.guide.builds;
 
 import com.ethu.guide.interfaces.Loot;
-import com.ethu.guide.interfaces.LootStatCalculation;
-import com.ethu.guide.pojo.Characters;
 
 /**
  * @author truonga Armor, extend from Loot. The most important pieces of Loots
